@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<!--dropdown for song lists-->
+<body class=" bg-primary">
+    <script src="index.js"></script>
+    <div class="dropdown">
+        <label tabindex="0" class="btn m-1">Songs</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a onclick="firstsong()" id="Song1">Hello You</a></li>
+          <li><a onclick="secondsong()" id="Song2">Fireside</a></li>
+        </ul>
+      </div>
+
+<div class="flex flex-row justify-center items-center">
+
+    <div class="bg-secondary flex flex-row
+    justify-center
+    content-center
+    min-h-screen
+    w-1/3 pt-5
+    border-4
+    border-primary
+    rounded-2xl">
+           
+        <article class=" prose">
+            <h1 id="songname">Hello You</h1>
+                <p id="lyrics" class=" text-lg">
+                    Hello you 
+                    Still draggin' out a long goodbye?  <br>
+                    I ought to apologise  <br>
+                    For one of the last times
+                </p>
+
+        </article>
+    </div>
+
+</div>
+</body>
+</html>
